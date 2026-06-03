@@ -22,3 +22,8 @@ Data boundary: no PHI and no raw DICOM in delivery package.
 NDA after flow: discovery, intake, validation, report, remediation review.
 
 Boundary phrase: not clinical validation, not regulatory approval, no PHI, not certification.
+
+
+## v0.2 Service Scope
+
+Supports public validator v0.2 and private suite v0.2 fields: trace_id, provenance, and optional FDO-style mapping metadata. Boundary phrase: not clinical validation, not regulatory approval, no PHI, not certification.
