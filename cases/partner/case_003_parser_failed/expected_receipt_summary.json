@@ -1,0 +1,6 @@
+{
+  "case_id": "case_003_parser_failed",
+  "expected_primary_error_code": "parser_failed",
+  "private_case": false,
+  "synthetic_data": true
+}

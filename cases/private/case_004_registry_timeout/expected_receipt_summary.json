@@ -1,0 +1,6 @@
+{
+  "case_id": "case_004_registry_timeout",
+  "expected_primary_error_code": "registry_timeout",
+  "private_case": true,
+  "synthetic_data": true
+}

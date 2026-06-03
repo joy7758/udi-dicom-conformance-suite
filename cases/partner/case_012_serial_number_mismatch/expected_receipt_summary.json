@@ -1,0 +1,6 @@
+{
+  "case_id": "case_012_serial_number_mismatch",
+  "expected_primary_error_code": "serial_number_mismatch",
+  "private_case": false,
+  "synthetic_data": true
+}

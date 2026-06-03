@@ -1,0 +1,6 @@
+{
+  "case_id": "case_001_registry_provider_missing",
+  "expected_primary_error_code": "registry_provider_missing",
+  "private_case": true,
+  "synthetic_data": true
+}

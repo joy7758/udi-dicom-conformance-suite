@@ -1,0 +1,6 @@
+{
+  "case_id": "case_002_lookup_timestamp_missing",
+  "expected_primary_error_code": "lookup_timestamp_missing",
+  "private_case": true,
+  "synthetic_data": true
+}

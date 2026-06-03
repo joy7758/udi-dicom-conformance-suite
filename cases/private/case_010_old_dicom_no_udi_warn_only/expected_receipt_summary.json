@@ -1,0 +1,6 @@
+{
+  "case_id": "case_010_old_dicom_no_udi_warn_only",
+  "expected_primary_error_code": "old_dicom_no_udi_warn_only",
+  "private_case": true,
+  "synthetic_data": true
+}

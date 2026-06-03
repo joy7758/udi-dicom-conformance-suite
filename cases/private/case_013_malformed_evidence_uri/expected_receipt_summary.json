@@ -1,0 +1,6 @@
+{
+  "case_id": "case_013_malformed_evidence_uri",
+  "expected_primary_error_code": "malformed_evidence_uri",
+  "private_case": true,
+  "synthetic_data": true
+}

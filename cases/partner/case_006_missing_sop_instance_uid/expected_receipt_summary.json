@@ -1,0 +1,6 @@
+{
+  "case_id": "case_006_missing_sop_instance_uid",
+  "expected_primary_error_code": "missing_sop_instance_uid",
+  "private_case": false,
+  "synthetic_data": true
+}

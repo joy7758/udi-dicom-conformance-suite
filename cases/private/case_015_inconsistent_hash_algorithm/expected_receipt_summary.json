@@ -1,0 +1,6 @@
+{
+  "case_id": "case_015_inconsistent_hash_algorithm",
+  "expected_primary_error_code": "inconsistent_hash_algorithm",
+  "private_case": true,
+  "synthetic_data": true
+}

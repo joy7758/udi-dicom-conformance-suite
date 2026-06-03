@@ -1,0 +1,6 @@
+{
+  "case_id": "case_004_missing_udi_di",
+  "expected_primary_error_code": "missing_udi_di",
+  "private_case": false,
+  "synthetic_data": true
+}

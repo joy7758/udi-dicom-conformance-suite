@@ -1,0 +1,6 @@
+{
+  "case_id": "case_008_nonstandard_model_alias",
+  "expected_primary_error_code": "nonstandard_model_alias",
+  "private_case": true,
+  "synthetic_data": true
+}

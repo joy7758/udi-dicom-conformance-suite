@@ -1,0 +1,6 @@
+{
+  "case_id": "case_014_duplicate_evidence_item",
+  "expected_primary_error_code": "duplicate_evidence_item",
+  "private_case": true,
+  "synthetic_data": true
+}

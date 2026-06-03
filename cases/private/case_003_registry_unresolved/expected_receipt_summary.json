@@ -1,0 +1,6 @@
+{
+  "case_id": "case_003_registry_unresolved",
+  "expected_primary_error_code": "registry_unresolved",
+  "private_case": true,
+  "synthetic_data": true
+}

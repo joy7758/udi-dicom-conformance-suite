@@ -1,0 +1,6 @@
+{
+  "case_id": "case_007_multiple_udi_sequence_items",
+  "expected_primary_error_code": "multiple_udi_sequence_items",
+  "private_case": true,
+  "synthetic_data": true
+}

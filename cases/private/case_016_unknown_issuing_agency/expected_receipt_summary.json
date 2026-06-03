@@ -1,0 +1,6 @@
+{
+  "case_id": "case_016_unknown_issuing_agency",
+  "expected_primary_error_code": "unknown_issuing_agency",
+  "private_case": true,
+  "synthetic_data": true
+}

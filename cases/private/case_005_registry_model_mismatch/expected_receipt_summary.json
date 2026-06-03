@@ -1,0 +1,6 @@
+{
+  "case_id": "case_005_registry_model_mismatch",
+  "expected_primary_error_code": "registry_model_mismatch",
+  "private_case": true,
+  "synthetic_data": true
+}

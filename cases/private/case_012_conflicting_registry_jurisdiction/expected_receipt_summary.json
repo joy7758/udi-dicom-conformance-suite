@@ -1,0 +1,6 @@
+{
+  "case_id": "case_012_conflicting_registry_jurisdiction",
+  "expected_primary_error_code": "conflicting_registry_jurisdiction",
+  "private_case": true,
+  "synthetic_data": true
+}

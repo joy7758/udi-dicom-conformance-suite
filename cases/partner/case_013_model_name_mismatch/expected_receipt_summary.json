@@ -1,0 +1,6 @@
+{
+  "case_id": "case_013_model_name_mismatch",
+  "expected_primary_error_code": "model_name_mismatch",
+  "private_case": false,
+  "synthetic_data": true
+}

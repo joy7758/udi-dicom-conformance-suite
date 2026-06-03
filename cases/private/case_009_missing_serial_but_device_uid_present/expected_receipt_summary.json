@@ -1,0 +1,6 @@
+{
+  "case_id": "case_009_missing_serial_but_device_uid_present",
+  "expected_primary_error_code": "missing_serial_but_device_uid_present",
+  "private_case": true,
+  "synthetic_data": true
+}

@@ -1,0 +1,6 @@
+{
+  "case_id": "case_006_registry_company_mismatch",
+  "expected_primary_error_code": "registry_company_mismatch",
+  "private_case": true,
+  "synthetic_data": true
+}

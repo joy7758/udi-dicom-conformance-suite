@@ -1,0 +1,6 @@
+{
+  "case_id": "case_010_artifact_hash_mismatch",
+  "expected_primary_error_code": "artifact_hash_mismatch",
+  "private_case": false,
+  "synthetic_data": true
+}

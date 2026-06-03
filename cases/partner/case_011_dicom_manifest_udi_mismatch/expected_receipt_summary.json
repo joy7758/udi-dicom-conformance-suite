@@ -1,0 +1,6 @@
+{
+  "case_id": "case_011_dicom_manifest_udi_mismatch",
+  "expected_primary_error_code": "dicom_manifest_udi_mismatch",
+  "private_case": false,
+  "synthetic_data": true
+}

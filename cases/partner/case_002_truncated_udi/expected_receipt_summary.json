@@ -1,0 +1,6 @@
+{
+  "case_id": "case_002_truncated_udi",
+  "expected_primary_error_code": "truncated_udi",
+  "private_case": false,
+  "synthetic_data": true
+}

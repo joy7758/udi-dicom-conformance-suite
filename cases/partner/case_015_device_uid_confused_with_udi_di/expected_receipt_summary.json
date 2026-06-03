@@ -1,0 +1,6 @@
+{
+  "case_id": "case_015_device_uid_confused_with_udi_di",
+  "expected_primary_error_code": "device_uid_confused_with_udi_di",
+  "private_case": false,
+  "synthetic_data": true
+}

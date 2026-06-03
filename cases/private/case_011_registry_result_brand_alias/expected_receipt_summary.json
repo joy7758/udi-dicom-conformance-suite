@@ -1,0 +1,6 @@
+{
+  "case_id": "case_011_registry_result_brand_alias",
+  "expected_primary_error_code": "registry_result_brand_alias",
+  "private_case": true,
+  "synthetic_data": true
+}

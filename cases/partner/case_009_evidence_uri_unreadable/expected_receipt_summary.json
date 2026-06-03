@@ -1,0 +1,6 @@
+{
+  "case_id": "case_009_evidence_uri_unreadable",
+  "expected_primary_error_code": "evidence_uri_unreadable",
+  "private_case": false,
+  "synthetic_data": true
+}

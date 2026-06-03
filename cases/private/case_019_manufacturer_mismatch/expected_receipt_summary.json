@@ -1,0 +1,6 @@
+{
+  "case_id": "case_019_manufacturer_mismatch",
+  "expected_primary_error_code": "manufacturer_mismatch",
+  "private_case": true,
+  "synthetic_data": true
+}

@@ -1,0 +1,6 @@
+{
+  "case_id": "case_018_sop_uid_mismatch",
+  "expected_primary_error_code": "sop_uid_mismatch",
+  "private_case": true,
+  "synthetic_data": true
+}

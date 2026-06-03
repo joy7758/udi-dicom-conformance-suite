@@ -1,0 +1,6 @@
+{
+  "case_id": "case_008_missing_evidence_item",
+  "expected_primary_error_code": "missing_evidence_item",
+  "private_case": false,
+  "synthetic_data": true
+}
