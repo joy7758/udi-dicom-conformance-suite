@@ -7,3 +7,8 @@ suggested remediation, and evidence packaging recommendation.
 ## v0.2 Vendor Mapping Fields
 
 Review synthetic workflow trace id propagation and FDO-style mapping aliases without treating them as certification or production FDO proof.
+
+
+## v0.3 Mapping Review
+
+Include partner pack summary, regression baseline coverage, generic alias patterns, trace_id handling, FDO mapping consistency, and no-certification boundary.
