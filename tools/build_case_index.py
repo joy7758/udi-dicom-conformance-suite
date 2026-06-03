@@ -18,7 +18,9 @@ REQUIRED = {
 def build(section: str) -> list[dict[str, object]]:
     base = ROOT / "cases" / section
     cases = []
-    for folder in sorted(path for path in base.iterdir() if path.is_dir()):
+    for folder in sorted(path for path in base.rglob("*") if path.is_dir()):
+        if not (folder / "expected_receipt_summary.json").exists():
+            continue
         missing = sorted(name for name in REQUIRED if not (folder / name).exists())
         if missing:
             raise SystemExit(f"{folder} missing {missing}")
@@ -28,6 +30,7 @@ def build(section: str) -> list[dict[str, object]]:
                 "case_id": folder.name,
                 "path": str(folder.relative_to(ROOT)),
                 "expected_primary_error_code": summary["expected_primary_error_code"],
+                "profile_version": summary.get("profile_version", "v0.1.0"),
                 "synthetic_data": summary["synthetic_data"],
             }
         )

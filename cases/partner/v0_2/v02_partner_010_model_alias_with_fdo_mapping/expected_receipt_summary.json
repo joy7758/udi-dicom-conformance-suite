@@ -1,0 +1,12 @@
+{
+  "case_id": "v02_partner_010_model_alias_with_fdo_mapping",
+  "checks_under_review": [
+    "trace_id_consistency",
+    "fdo_mapping_consistency"
+  ],
+  "expected_primary_error_code": "pass",
+  "offline_fixture_first": true,
+  "private_case": false,
+  "profile_version": "v0.2.0",
+  "synthetic_data": true
+}

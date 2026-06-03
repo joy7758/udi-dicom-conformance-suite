@@ -2,80 +2,175 @@ cases:
 - case_id: case_001_registry_provider_missing
   expected_primary_error_code: registry_provider_missing
   path: cases/private/case_001_registry_provider_missing
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_002_lookup_timestamp_missing
   expected_primary_error_code: lookup_timestamp_missing
   path: cases/private/case_002_lookup_timestamp_missing
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_003_registry_unresolved
   expected_primary_error_code: registry_unresolved
   path: cases/private/case_003_registry_unresolved
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_004_registry_timeout
   expected_primary_error_code: registry_timeout
   path: cases/private/case_004_registry_timeout
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_005_registry_model_mismatch
   expected_primary_error_code: registry_model_mismatch
   path: cases/private/case_005_registry_model_mismatch
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_006_registry_company_mismatch
   expected_primary_error_code: registry_company_mismatch
   path: cases/private/case_006_registry_company_mismatch
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_007_multiple_udi_sequence_items
   expected_primary_error_code: multiple_udi_sequence_items
   path: cases/private/case_007_multiple_udi_sequence_items
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_008_nonstandard_model_alias
   expected_primary_error_code: nonstandard_model_alias
   path: cases/private/case_008_nonstandard_model_alias
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_009_missing_serial_but_device_uid_present
   expected_primary_error_code: missing_serial_but_device_uid_present
   path: cases/private/case_009_missing_serial_but_device_uid_present
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_010_old_dicom_no_udi_warn_only
   expected_primary_error_code: old_dicom_no_udi_warn_only
   path: cases/private/case_010_old_dicom_no_udi_warn_only
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_011_registry_result_brand_alias
   expected_primary_error_code: registry_result_brand_alias
   path: cases/private/case_011_registry_result_brand_alias
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_012_conflicting_registry_jurisdiction
   expected_primary_error_code: conflicting_registry_jurisdiction
   path: cases/private/case_012_conflicting_registry_jurisdiction
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_013_malformed_evidence_uri
   expected_primary_error_code: malformed_evidence_uri
   path: cases/private/case_013_malformed_evidence_uri
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_014_duplicate_evidence_item
   expected_primary_error_code: duplicate_evidence_item
   path: cases/private/case_014_duplicate_evidence_item
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_015_inconsistent_hash_algorithm
   expected_primary_error_code: inconsistent_hash_algorithm
   path: cases/private/case_015_inconsistent_hash_algorithm
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_016_unknown_issuing_agency
   expected_primary_error_code: unknown_issuing_agency
   path: cases/private/case_016_unknown_issuing_agency
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_017_missing_udi
   expected_primary_error_code: missing_udi
   path: cases/private/case_017_missing_udi
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_018_sop_uid_mismatch
   expected_primary_error_code: sop_uid_mismatch
   path: cases/private/case_018_sop_uid_mismatch
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_019_manufacturer_mismatch
   expected_primary_error_code: manufacturer_mismatch
   path: cases/private/case_019_manufacturer_mismatch
+  profile_version: v0.1.0
   synthetic_data: true
 - case_id: case_020_registry_unresolved
   expected_primary_error_code: registry_unresolved
   path: cases/private/case_020_registry_unresolved
+  profile_version: v0.1.0
+  synthetic_data: true
+- case_id: v02_private_001_trace_id_absent_schema_fail
+  expected_primary_error_code: schema_validation_failed
+  path: cases/private/v0_2/v02_private_001_trace_id_absent_schema_fail
+  profile_version: v0.2.0
+  synthetic_data: true
+- case_id: v02_private_002_trace_id_blank
+  expected_primary_error_code: schema_validation_failed
+  path: cases/private/v0_2/v02_private_002_trace_id_blank
+  profile_version: v0.2.0
+  synthetic_data: true
+- case_id: v02_private_003_provenance_missing_workflow_trace_id
+  expected_primary_error_code: schema_validation_failed
+  path: cases/private/v0_2/v02_private_003_provenance_missing_workflow_trace_id
+  profile_version: v0.2.0
+  synthetic_data: true
+- case_id: v02_private_004_provenance_generated_by_missing
+  expected_primary_error_code: schema_validation_failed
+  path: cases/private/v0_2/v02_private_004_provenance_generated_by_missing
+  profile_version: v0.2.0
+  synthetic_data: true
+- case_id: v02_private_005_fdo_resolver_hint_blank
+  expected_primary_error_code: manual_review_required
+  path: cases/private/v0_2/v02_private_005_fdo_resolver_hint_blank
+  profile_version: v0.2.0
+  synthetic_data: true
+- case_id: v02_private_006_fdo_artifact_relation_unknown
+  expected_primary_error_code: manual_review_required
+  path: cases/private/v0_2/v02_private_006_fdo_artifact_relation_unknown
+  profile_version: v0.2.0
+  synthetic_data: true
+- case_id: v02_private_007_fdo_profile_pid_mismatch
+  expected_primary_error_code: fdo_mapping_mismatch
+  path: cases/private/v0_2/v02_private_007_fdo_profile_pid_mismatch
+  profile_version: v0.2.0
+  synthetic_data: true
+- case_id: v02_private_008_registry_trace_id_mismatch
+  expected_primary_error_code: trace_id_mismatch
+  path: cases/private/v0_2/v02_private_008_registry_trace_id_mismatch
+  profile_version: v0.2.0
+  synthetic_data: true
+- case_id: v02_private_009_nested_fdo_mapping_alias
+  expected_primary_error_code: pass
+  path: cases/private/v0_2/v02_private_009_nested_fdo_mapping_alias
+  profile_version: v0.2.0
+  synthetic_data: true
+- case_id: v02_private_010_trace_id_duplicate_across_case_pack
+  expected_primary_error_code: manual_review_required
+  path: cases/private/v0_2/v02_private_010_trace_id_duplicate_across_case_pack
+  profile_version: v0.2.0
+  synthetic_data: true
+- case_id: v02_private_011_registry_timeout_with_trace
+  expected_primary_error_code: registry_timeout
+  path: cases/private/v0_2/v02_private_011_registry_timeout_with_trace
+  profile_version: v0.2.0
+  synthetic_data: true
+- case_id: v02_private_012_registry_company_mismatch_with_trace
+  expected_primary_error_code: registry_company_mismatch
+  path: cases/private/v0_2/v02_private_012_registry_company_mismatch_with_trace
+  profile_version: v0.2.0
+  synthetic_data: true
+- case_id: v02_private_013_registry_model_mismatch_with_trace
+  expected_primary_error_code: registry_model_mismatch
+  path: cases/private/v0_2/v02_private_013_registry_model_mismatch_with_trace
+  profile_version: v0.2.0
+  synthetic_data: true
+- case_id: v02_private_014_unknown_issuing_agency_with_trace
+  expected_primary_error_code: unsupported_issuing_agency
+  path: cases/private/v0_2/v02_private_014_unknown_issuing_agency_with_trace
+  profile_version: v0.2.0
+  synthetic_data: true
+- case_id: v02_private_015_device_uid_confused_with_fdo_pid
+  expected_primary_error_code: fdo_mapping_mismatch
+  path: cases/private/v0_2/v02_private_015_device_uid_confused_with_fdo_pid
+  profile_version: v0.2.0
   synthetic_data: true

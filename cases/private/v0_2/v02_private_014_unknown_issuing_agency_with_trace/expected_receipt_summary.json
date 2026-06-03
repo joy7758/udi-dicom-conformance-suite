@@ -1,0 +1,12 @@
+{
+  "case_id": "v02_private_014_unknown_issuing_agency_with_trace",
+  "checks_under_review": [
+    "trace_id_consistency",
+    "fdo_mapping_consistency"
+  ],
+  "expected_primary_error_code": "unsupported_issuing_agency",
+  "offline_fixture_first": true,
+  "private_case": true,
+  "profile_version": "v0.2.0",
+  "synthetic_data": true
+}

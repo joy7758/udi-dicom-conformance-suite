@@ -1,0 +1,12 @@
+{
+  "case_id": "v02_partner_007_registry_unresolved_with_trace",
+  "checks_under_review": [
+    "trace_id_consistency",
+    "fdo_mapping_consistency"
+  ],
+  "expected_primary_error_code": "registry_unresolved",
+  "offline_fixture_first": true,
+  "private_case": false,
+  "profile_version": "v0.2.0",
+  "synthetic_data": true
+}

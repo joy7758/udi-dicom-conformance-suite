@@ -1,0 +1,12 @@
+{
+  "case_id": "v02_private_008_registry_trace_id_mismatch",
+  "checks_under_review": [
+    "trace_id_consistency",
+    "fdo_mapping_consistency"
+  ],
+  "expected_primary_error_code": "trace_id_mismatch",
+  "offline_fixture_first": true,
+  "private_case": true,
+  "profile_version": "v0.2.0",
+  "synthetic_data": true
+}

@@ -3,3 +3,8 @@
 Executive summary, sample scope, de-identification statement, findings, failure
 modes, registry resolution summary, boundary statement, recommendations, and not
 clinical/regulatory approval.
+
+
+## v0.2 Trace and FDO Mapping
+
+Summarize trace_id_consistency, provenance completeness, and fdo_mapping_consistency. Boundary remains no clinical validation, no PHI, not regulatory approval.

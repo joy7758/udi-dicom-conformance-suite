@@ -1,0 +1,12 @@
+{
+  "case_id": "v02_partner_006_provenance_synthetic_flag_false",
+  "checks_under_review": [
+    "trace_id_consistency",
+    "fdo_mapping_consistency"
+  ],
+  "expected_primary_error_code": "manual_review_required",
+  "offline_fixture_first": true,
+  "private_case": false,
+  "profile_version": "v0.2.0",
+  "synthetic_data": true
+}

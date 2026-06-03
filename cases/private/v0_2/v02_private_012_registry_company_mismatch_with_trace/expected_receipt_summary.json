@@ -1,0 +1,12 @@
+{
+  "case_id": "v02_private_012_registry_company_mismatch_with_trace",
+  "checks_under_review": [
+    "trace_id_consistency",
+    "fdo_mapping_consistency"
+  ],
+  "expected_primary_error_code": "registry_company_mismatch",
+  "offline_fixture_first": true,
+  "private_case": true,
+  "profile_version": "v0.2.0",
+  "synthetic_data": true
+}

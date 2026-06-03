@@ -1,0 +1,12 @@
+{
+  "case_id": "v02_partner_009_device_uid_used_as_udi_di_with_trace",
+  "checks_under_review": [
+    "trace_id_consistency",
+    "fdo_mapping_consistency"
+  ],
+  "expected_primary_error_code": "device_uid_used_as_udi_di",
+  "offline_fixture_first": true,
+  "private_case": false,
+  "profile_version": "v0.2.0",
+  "synthetic_data": true
+}
