@@ -37,3 +37,8 @@ trace_id_consistency:
 fdo_mapping_consistency:
 
 Boundary statement: not clinical validation, not regulatory approval, no PHI, not certification.
+
+
+## v0.3 Delivery Section
+
+Include delivery package manifest id, pilot kit status, service readiness matrix score, trace_id handling, FDO mapping field handling, and registry fixture policy.

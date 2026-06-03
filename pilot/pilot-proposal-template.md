@@ -7,3 +7,8 @@ criteria, exclusions, and data protection assumptions.
 ## v0.2 Pilot
 
 Objective includes trace_id and provenance review. Acceptance criteria include deterministic v0.2 receipts, no PHI, and delivery manifest v0.2.
+
+
+## v0.3 Pilot Kit Workflow
+
+Use generated pilot readiness checklist, scope template, success criteria, and boundary statement. Do not include price amounts or hospital-level deployment promises.

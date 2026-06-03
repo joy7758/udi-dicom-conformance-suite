@@ -1,0 +1,27 @@
+{
+  "allowed_outputs": [
+    "delivery_manifest_v0.3.json",
+    "delivery_summary_v0.3.md",
+    "receipt summaries",
+    "redaction check log"
+  ],
+  "batch_summary": "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/delivery/generated/synthetic_batch_summary_v0.3.json",
+  "boundary": [
+    "no PHI",
+    "not clinical validation",
+    "not regulatory approval",
+    "not certification"
+  ],
+  "delivery_manifest_version": "v0.3",
+  "forbidden_artifacts_packaged": false,
+  "forbidden_outputs": [
+    "original DICOM files",
+    "patient report",
+    "raw clinical report",
+    "private conformance cases",
+    "customer confidential artifacts"
+  ],
+  "raw_dicom_packaged": false,
+  "redaction_log": "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/delivery/generated/redaction_check_log.txt",
+  "report": "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/delivery/generated/synthetic_report_v0.3.md"
+}

@@ -27,3 +27,8 @@ Boundary phrase: not clinical validation, not regulatory approval, no PHI, not c
 ## v0.2 Service Scope
 
 Supports public validator v0.2 and private suite v0.2 fields: trace_id, provenance, and optional FDO-style mapping metadata. Boundary phrase: not clinical validation, not regulatory approval, no PHI, not certification.
+
+
+## v0.3 Delivery Workflow
+
+The v0.3 service can generate a delivery package, pilot kit, and service readiness matrix. Delivery excludes original DICOM files, private conformance cases, customer confidential artifacts, and PHI. trace_id and FDO mapping fields are handled as review metadata only. Registry fixtures remain offline first.

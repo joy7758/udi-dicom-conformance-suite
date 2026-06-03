@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Delivery Manifest v0.3",
+  "type": "object",
+  "required": [
+    "delivery_manifest_version",
+    "raw_dicom_packaged",
+    "forbidden_artifacts_packaged",
+    "boundary"
+  ],
+  "properties": {
+    "delivery_manifest_version": {
+      "const": "v0.3"
+    },
+    "raw_dicom_packaged": {
+      "const": false
+    },
+    "forbidden_artifacts_packaged": {
+      "const": false
+    },
+    "boundary": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
