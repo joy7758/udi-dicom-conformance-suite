@@ -1,0 +1,8 @@
+{
+  "asset_count": 5,
+  "complete_private_case_manifest_included": false,
+  "no_phi": true,
+  "output_dir": "artifacts/private-suite-release",
+  "private_release_only": true,
+  "raw_dicom_included": false
+}
