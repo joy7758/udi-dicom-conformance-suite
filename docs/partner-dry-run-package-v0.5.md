@@ -22,3 +22,6 @@ Boundary: partner-safe synthetic cases only, no PHI, no raw DICOM files, no
 complete private case content, not clinical validation, not regulatory approval,
 and not certification.
 
+v0.6 adds partner feedback governance and private asset governance audit. Run
+`tools/audit_private_asset_governance.py` before sharing partner-facing
+summaries.

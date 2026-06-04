@@ -1,0 +1,9 @@
+{
+  "audit_version": "v0.6",
+  "files_checked": 54,
+  "hits": [],
+  "ok": true,
+  "phi_in_release_assets": false,
+  "private_cases_in_partner_outputs": false,
+  "raw_dicom_in_release_assets": false
+}

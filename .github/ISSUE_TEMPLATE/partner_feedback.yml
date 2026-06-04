@@ -1,0 +1,26 @@
+name: Partner feedback
+description: Partner-safe feedback intake for synthetic review material.
+title: "[Partner feedback]: "
+labels: ["partner-feedback", "needs-review"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feedback category
+      options:
+        - partner pack question
+        - expected output mismatch
+        - evidence boundary concern
+        - vendor mapping question
+        - registry fixture question
+        - out-of-scope request
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Use synthetic partner-safe material only. Do not include PHI or confidential rules.
+    validations:
+      required: true
+

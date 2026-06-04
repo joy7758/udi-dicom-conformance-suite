@@ -35,3 +35,15 @@ certification. Do not include real vendor-confidential rules in this template.
 Use this section for technical review readiness only. Do not promise hospital
 deployment, regulatory compliance outcomes, clinical validation, or
 certification.
+
+## v0.6 Partner Feedback Governance
+
+- Feedback category:
+- Safe response policy:
+- NDA/de-identification gate:
+- Private asset governance audit:
+- Public paper support boundary:
+
+Do not include real vendor confidential rules, real samples, private case
+content, PHI, raw DICOM, clinical validation, regulatory approval, or
+certification.

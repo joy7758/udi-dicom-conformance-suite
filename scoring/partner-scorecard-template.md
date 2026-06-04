@@ -32,3 +32,14 @@ approval, not certification.
 - FDO-style mapping boundary confirmed: `yes|no`
 
 Any `fail`, `hold`, or missing boundary confirmation blocks partner sharing.
+
+## v0.6 Feedback Governance
+
+- Partner feedback category:
+- Safe response status:
+- Private asset governance audit: `pass|fail|not_run`
+- NDA/de-identification gate needed: `yes|no`
+- Public paper support boundary reviewed: `yes|no`
+
+Do not include private case content, PHI, raw DICOM, real vendor confidential
+rules, clinical validation, regulatory approval, or certification.

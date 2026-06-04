@@ -1,0 +1,13 @@
+name: Vendor mapping question
+description: Ask about synthetic vendor mapping review boundaries.
+title: "[Vendor mapping]: "
+labels: ["vendor-mapping", "needs-review"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Do not include confidential vendor rules or real samples.
+    validations:
+      required: true
+
