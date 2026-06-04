@@ -12,3 +12,10 @@ Objective includes trace_id and provenance review. Acceptance criteria include d
 ## v0.3 Pilot Kit Workflow
 
 Use generated pilot readiness checklist, scope template, success criteria, and boundary statement. Do not include price amounts or hospital-level deployment promises.
+## v0.4 Synthetic Pilot Workflow
+
+The pilot uses synthetic-only workflow materials, delivery package generation,
+delivery audit trail generation, and pilot handoff review.
+
+No PHI or raw DICOM originals are included. The pilot output is not clinical
+validation, not regulatory approval, and not certification.

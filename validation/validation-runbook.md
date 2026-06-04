@@ -11,3 +11,16 @@ Use `scripts/run_validation_batch.py --profile-version v0.2.0 --out batch_summar
 ## v0.3 Runbook
 
 Run service readiness matrix, pilot kit generator, delivery package builder, and delivery package checker before sending any partner-facing material.
+## v0.4 Synthetic Pilot Run
+
+Run:
+
+```bash
+python scripts/run_synthetic_pilot_e2e.py
+python scripts/check_synthetic_pilot_outputs.py artifacts/synthetic-pilot-e2e
+python scripts/build_delivery_audit_trail.py --synthetic-demo
+```
+
+Stop if suspected PHI or raw DICOM originals appear. All conclusions must remain
+review/report conclusions, not clinical validation, regulatory approval, or
+certification.

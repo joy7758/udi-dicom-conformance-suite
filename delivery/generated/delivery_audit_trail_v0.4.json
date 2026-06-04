@@ -1,0 +1,31 @@
+{
+  "boundary_statement": "Synthetic review/report delivery only; no PHI, no raw DICOM, not clinical validation, not regulatory approval, not certification.",
+  "created_at": "2026-06-04T00:00:00Z",
+  "delivery_id": "synthetic-delivery-v0.4-001",
+  "forbidden_asset_check_status": "pass",
+  "generated_artifacts": [
+    "delivery/generated/delivery_manifest_v0.3.json",
+    "delivery/generated/delivery_summary_v0.3.md",
+    "delivery/generated/redaction_check_log.txt",
+    "delivery/generated/synthetic_batch_summary_v0.3.json",
+    "delivery/generated/synthetic_report_v0.3.md"
+  ],
+  "phi_included": false,
+  "raw_dicom_packaged": false,
+  "redaction_check_status": "pass",
+  "reviewer_notes": "Use for synthetic pilot handoff review only.",
+  "service_version": "v0.4.0-branch",
+  "sha256_hashes": {
+    "delivery/generated/delivery_manifest_v0.3.json": "bfe4ef6522e2ffa45871942a1e0b1312d67b592f6e7b2f79bf7ffe33c52c7a4d",
+    "delivery/generated/delivery_summary_v0.3.md": "75f4129b2e4f425a8e50ee6b207b2814b8697c0a6e6ae3c0efac37e321da263f",
+    "delivery/generated/redaction_check_log.txt": "4df53c56d4a6cfe99bbf3c164594170ed34f063894229c804fcc82b0bad62ffc",
+    "delivery/generated/synthetic_batch_summary_v0.3.json": "8390068eb69b610006f545967b8dde3e694d378651c6f0a160f0b7864c527d7e",
+    "delivery/generated/synthetic_report_v0.3.md": "0c392d70b6d3d6073d0f5b2db8bc83d046b765c2f5fb21dd0bfab01fb5d815ee"
+  },
+  "source_artifacts": [
+    "synthetic validator receipt summary",
+    "synthetic partner pack summary"
+  ],
+  "suite_version": "private-suite-v0.3",
+  "validator_version": "public-validator-v0.3"
+}
