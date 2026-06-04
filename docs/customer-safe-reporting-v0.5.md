@@ -12,3 +12,17 @@ consistency findings, redaction check status, and delivery readiness. They must
 not provide diagnosis, regulatory clearance, certification, compliance
 certificate language, or hospital deployment promises.
 
+## v0.6 Safe Handoff Reporting
+
+Customer-safe v0.6 reporting may cite:
+
+- `artifacts/service-governance-audit-v0.6.json`
+- `artifacts/service-governance-audit-v0.6.md`
+- `artifacts/safe-handoff-package-v0.6/safe_handoff_manifest.json`
+- `artifacts/safe-handoff-package-v0.6/safe_handoff_summary.md`
+- `artifacts/safe-handoff-package-v0.6/customer_boundary_statement.md`
+
+Reports must state that the service material is synthetic technical review
+output. It contains no PHI, no raw DICOM, no real customer name, and no real
+hospital name. It is not clinical validation, not regulatory approval, not
+certification, and not a compliance certificate.
