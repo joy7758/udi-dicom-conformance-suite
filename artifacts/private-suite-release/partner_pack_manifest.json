@@ -1,0 +1,214 @@
+{
+  "boundary": [
+    "not clinical validation",
+    "not regulatory approval",
+    "not certification",
+    "synthetic partner-safe cases only"
+  ],
+  "cases": [
+    {
+      "case_id": "case_001_missing_udi",
+      "expected_primary_error_code": "missing_udi",
+      "no_phi": true,
+      "path": "cases/partner/case_001_missing_udi",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "case_002_truncated_udi",
+      "expected_primary_error_code": "truncated_udi",
+      "no_phi": true,
+      "path": "cases/partner/case_002_truncated_udi",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "case_003_parser_failed",
+      "expected_primary_error_code": "parser_failed",
+      "no_phi": true,
+      "path": "cases/partner/case_003_parser_failed",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "case_004_missing_udi_di",
+      "expected_primary_error_code": "missing_udi_di",
+      "no_phi": true,
+      "path": "cases/partner/case_004_missing_udi_di",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "case_005_device_uid_used_as_udi_di",
+      "expected_primary_error_code": "device_uid_used_as_udi_di",
+      "no_phi": true,
+      "path": "cases/partner/case_005_device_uid_used_as_udi_di",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "case_006_missing_sop_instance_uid",
+      "expected_primary_error_code": "missing_sop_instance_uid",
+      "no_phi": true,
+      "path": "cases/partner/case_006_missing_sop_instance_uid",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "case_007_sop_uid_mismatch",
+      "expected_primary_error_code": "sop_uid_mismatch",
+      "no_phi": true,
+      "path": "cases/partner/case_007_sop_uid_mismatch",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "case_008_missing_evidence_item",
+      "expected_primary_error_code": "missing_evidence_item",
+      "no_phi": true,
+      "path": "cases/partner/case_008_missing_evidence_item",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "case_009_evidence_uri_unreadable",
+      "expected_primary_error_code": "evidence_uri_unreadable",
+      "no_phi": true,
+      "path": "cases/partner/case_009_evidence_uri_unreadable",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "case_010_artifact_hash_mismatch",
+      "expected_primary_error_code": "artifact_hash_mismatch",
+      "no_phi": true,
+      "path": "cases/partner/case_010_artifact_hash_mismatch",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "case_011_dicom_manifest_udi_mismatch",
+      "expected_primary_error_code": "dicom_manifest_udi_mismatch",
+      "no_phi": true,
+      "path": "cases/partner/case_011_dicom_manifest_udi_mismatch",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "case_012_serial_number_mismatch",
+      "expected_primary_error_code": "serial_number_mismatch",
+      "no_phi": true,
+      "path": "cases/partner/case_012_serial_number_mismatch",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "case_013_model_name_mismatch",
+      "expected_primary_error_code": "model_name_mismatch",
+      "no_phi": true,
+      "path": "cases/partner/case_013_model_name_mismatch",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "case_014_manufacturer_mismatch",
+      "expected_primary_error_code": "manufacturer_mismatch",
+      "no_phi": true,
+      "path": "cases/partner/case_014_manufacturer_mismatch",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "case_015_device_uid_confused_with_udi_di",
+      "expected_primary_error_code": "device_uid_confused_with_udi_di",
+      "no_phi": true,
+      "path": "cases/partner/case_015_device_uid_confused_with_udi_di",
+      "profile_version": "v0.1.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "v02_partner_001_trace_id_match_pass",
+      "expected_primary_error_code": "pass",
+      "no_phi": true,
+      "path": "cases/partner/v0_2/v02_partner_001_trace_id_match_pass",
+      "profile_version": "v0.2.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "v02_partner_002_trace_id_mismatch_provenance",
+      "expected_primary_error_code": "trace_id_mismatch",
+      "no_phi": true,
+      "path": "cases/partner/v0_2/v02_partner_002_trace_id_mismatch_provenance",
+      "profile_version": "v0.2.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "v02_partner_003_trace_id_mismatch_registry",
+      "expected_primary_error_code": "trace_id_mismatch",
+      "no_phi": true,
+      "path": "cases/partner/v0_2/v02_partner_003_trace_id_mismatch_registry",
+      "profile_version": "v0.2.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "v02_partner_004_fdo_profile_pid_mismatch",
+      "expected_primary_error_code": "fdo_mapping_mismatch",
+      "no_phi": true,
+      "path": "cases/partner/v0_2/v02_partner_004_fdo_profile_pid_mismatch",
+      "profile_version": "v0.2.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "v02_partner_005_fdo_mapping_missing_optional_pass",
+      "expected_primary_error_code": "pass",
+      "no_phi": true,
+      "path": "cases/partner/v0_2/v02_partner_005_fdo_mapping_missing_optional_pass",
+      "profile_version": "v0.2.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "v02_partner_006_provenance_synthetic_flag_false",
+      "expected_primary_error_code": "manual_review_required",
+      "no_phi": true,
+      "path": "cases/partner/v0_2/v02_partner_006_provenance_synthetic_flag_false",
+      "profile_version": "v0.2.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "v02_partner_007_registry_unresolved_with_trace",
+      "expected_primary_error_code": "registry_unresolved",
+      "no_phi": true,
+      "path": "cases/partner/v0_2/v02_partner_007_registry_unresolved_with_trace",
+      "profile_version": "v0.2.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "v02_partner_008_missing_udi_with_trace",
+      "expected_primary_error_code": "missing_udi",
+      "no_phi": true,
+      "path": "cases/partner/v0_2/v02_partner_008_missing_udi_with_trace",
+      "profile_version": "v0.2.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "v02_partner_009_device_uid_used_as_udi_di_with_trace",
+      "expected_primary_error_code": "device_uid_used_as_udi_di",
+      "no_phi": true,
+      "path": "cases/partner/v0_2/v02_partner_009_device_uid_used_as_udi_di_with_trace",
+      "profile_version": "v0.2.0",
+      "synthetic_data": true
+    },
+    {
+      "case_id": "v02_partner_010_model_alias_with_fdo_mapping",
+      "expected_primary_error_code": "pass",
+      "no_phi": true,
+      "path": "cases/partner/v0_2/v02_partner_010_model_alias_with_fdo_mapping",
+      "profile_version": "v0.2.0",
+      "synthetic_data": true
+    }
+  ],
+  "included_case_count": 25,
+  "no_phi": true,
+  "partner_pack_version": "v0.3.0",
+  "private_cases_included": false
+}

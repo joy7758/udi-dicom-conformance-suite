@@ -16,3 +16,16 @@ Score bands: Ready for sample validation, Needs mapping review, Not ready.
 ## v0.3 Scoring
 
 Scoring includes golden regression stability, partner pack readiness, profile version compatibility, trace_id consistency, FDO mapping consistency, and registry fixture reproducibility. Partner pack readiness requires synthetic_data=true, no_phi=true, no private paths, and expected_primary_error_code present.
+## v0.4 Partner Pack Readiness
+
+Scorecards must include:
+
+- leakage audit status
+- release asset hash status
+- partner pack readiness
+- private regression baseline status
+- profile compatibility summary
+
+Any leakage audit failure is a release blocker. Any missing SHA256SUMS entry is
+a release blocker. These scores support synthetic partner review only and are
+not clinical validation, regulatory approval, or certification.

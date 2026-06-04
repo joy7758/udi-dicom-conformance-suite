@@ -12,3 +12,13 @@ Review synthetic workflow trace id propagation and FDO-style mapping aliases wit
 ## v0.3 Mapping Review
 
 Include partner pack summary, regression baseline coverage, generic alias patterns, trace_id handling, FDO mapping consistency, and no-certification boundary.
+## v0.4 Partner Pack Controls
+
+- Leakage audit status:
+- Release asset hash status:
+- Partner pack readiness:
+- Private regression baseline status:
+- Profile compatibility summary:
+
+Do not interpret this assessment as clinical validation, regulatory approval, or
+certification. Do not include real vendor-confidential rules in this template.
