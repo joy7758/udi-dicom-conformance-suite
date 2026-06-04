@@ -30,3 +30,22 @@ certification.
 For synthetic customer dry runs, execute the customer dry run script, dry run
 checker, delivery package checker, redaction check, and service language audit.
 Only customer-safe summaries and reports may move to handoff.
+
+## v0.6 Governance and Handoff Gate
+
+Run:
+
+```bash
+python scripts/audit_service_governance.py
+python scripts/build_safe_handoff_package.py
+python scripts/check_safe_handoff_package.py artifacts/safe-handoff-package-v0.6
+```
+
+Do not proceed if the governance audit reports PHI markers, raw DICOM files,
+clinical validation wording, regulatory approval wording, certification wording,
+customer unsafe promises, hospital deployment overclaims, missing NDA language,
+or missing de-identification language.
+
+Validation results remain technical review findings. They are not clinical
+validation, not regulatory approval, not certification, and not medical
+decision support.

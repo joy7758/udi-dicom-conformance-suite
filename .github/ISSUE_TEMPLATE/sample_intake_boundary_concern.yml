@@ -1,0 +1,27 @@
+name: Sample intake boundary concern
+description: Report a possible sample intake or de-identification boundary issue.
+title: "[Sample intake boundary]: "
+labels: ["boundary-concern", "needs-review"]
+body:
+  - type: checkboxes
+    id: concern
+    attributes:
+      label: Concern type
+      options:
+        - label: PHI risk
+        - label: raw DICOM delivery risk
+        - label: real clinical report risk
+        - label: de-identification concern
+        - label: clinical validation overclaim
+        - label: regulatory approval overclaim
+        - label: certification overclaim
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Use customer-safe summaries only.
+    validations:
+      required: true
+

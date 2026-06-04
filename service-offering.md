@@ -48,3 +48,21 @@ The v0.5 service material supports a synthetic customer dry run for technical
 review. It generates a customer-safe report, handoff checklist, and service
 language audit. This is not a real customer pilot, not clinical validation, not
 regulatory approval, not certification, and not hospital deployment.
+
+## v0.6 Service Feedback Governance
+
+The v0.6 service material adds customer feedback intake, service governance
+audit, safe handoff package generation, and public-paper support boundary
+documents. These materials are for synthetic technical review and controlled
+partner discussion only.
+
+Customer feedback is triaged as discovery question, sample intake question,
+de-identification concern, validation report question, delivery package
+question, pilot handoff question, or out-of-scope request. Real cooperation
+requires NDA and de-identification review before any transfer is considered.
+
+Safe handoff outputs remain summaries, receipts, generated reports, audit
+trails, and boundary statements. They include no PHI, no raw DICOM, no real
+clinical report, no real customer name, and no real hospital name. The service
+does not provide clinical validation, regulatory approval, certification, or a
+compliance certificate.

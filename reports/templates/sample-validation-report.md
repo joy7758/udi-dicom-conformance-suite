@@ -62,3 +62,17 @@ regulatory approval, and not certification.
 
 Do not add diagnosis, compliance certificate language, regulatory clearance, or
 hospital deployment promises.
+
+## v0.6 Governance and Safe Handoff Appendix
+
+- Customer feedback intake category:
+- Service governance audit status:
+- Safe handoff package id:
+- Safe handoff checksum status:
+- Public-paper support boundary reviewed:
+- NDA required for real cooperation:
+- De-identification required for real cooperation:
+
+Boundary statement: technical review only; no PHI; no raw DICOM; no real
+clinical reports; no real customer names; no real hospital names; not clinical
+validation; not regulatory approval; not certification.

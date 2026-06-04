@@ -25,3 +25,21 @@ reports, handoff checklists, delivery audit trail summaries, and service
 language audit summaries. It must not include raw DICOM, PHI, real clinical
 reports, real customer names, real hospital names, compliance certificate
 language, regulatory clearance, or certification.
+
+## v0.6 Safe Handoff Package
+
+Run:
+
+```bash
+python scripts/build_safe_handoff_package.py
+python scripts/check_safe_handoff_package.py artifacts/safe-handoff-package-v0.6
+```
+
+The safe handoff package contains a manifest, summary, customer boundary
+statement, next step decision tree, and SHA-256 checksums. It is generated from
+synthetic customer dry-run output and the synthetic delivery audit trail.
+
+Delivery must not include PHI, raw DICOM, real clinical reports, real customer
+names, real hospital names, clinical validation, regulatory approval,
+certification, compliance certificate language, or hospital deployment approval.
+Real cooperation requires NDA and de-identification review.

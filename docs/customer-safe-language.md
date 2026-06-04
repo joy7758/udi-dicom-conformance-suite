@@ -27,3 +27,15 @@ Use: "synthetic customer dry run", "technical review", "customer-safe report",
 Avoid: diagnosis, regulatory clearance, certification, compliance certificate,
 hospital deployment promise, real customer approval, or real sample acceptance
 without separate review gates.
+
+## v0.6 Required Language
+
+Use: "customer feedback intake", "service governance audit", "safe handoff
+package", "public-paper support boundary", "synthetic technical review",
+"NDA required", and "de-identification required".
+
+Avoid: PHI acceptance, raw DICOM delivery, clinical validation claim,
+regulatory approval claim, certification claim, compliance certificate, real
+hospital deployment approval, real customer approval, real sample acceptance,
+or any statement that presents service review output as a clinical or regulatory
+decision.

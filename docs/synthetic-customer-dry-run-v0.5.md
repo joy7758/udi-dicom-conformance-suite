@@ -20,3 +20,18 @@ Generated files:
 Boundary: no PHI, no raw DICOM, no real customer names, no real hospital names,
 not clinical validation, not regulatory approval, and not certification.
 
+## v0.6 Safe Handoff Extension
+
+After the synthetic customer dry run, build and check the v0.6 safe handoff
+package:
+
+```bash
+python scripts/build_safe_handoff_package.py
+python scripts/check_safe_handoff_package.py artifacts/safe-handoff-package-v0.6
+```
+
+The safe handoff package reuses synthetic dry-run and delivery audit-trail
+outputs only. It adds a manifest, summary, customer boundary statement, next
+step decision tree, and SHA-256 checksums. It does not include PHI, raw DICOM,
+real clinical reports, real customer names, real hospital names, clinical
+validation, regulatory approval, or certification.

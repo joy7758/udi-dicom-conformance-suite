@@ -37,3 +37,22 @@ python scripts/audit_service_language.py
 Use only synthetic technical review outputs. Do not accept PHI, raw DICOM, real
 clinical reports, real customer names, real hospital names, clinical validation
 wording, regulatory approval wording, or certification wording.
+
+## v0.6 Feedback and Safe Handoff Gate
+
+Before any customer review or pilot handoff conversation, run:
+
+```bash
+python scripts/audit_service_governance.py
+python scripts/build_safe_handoff_package.py
+python scripts/check_safe_handoff_package.py artifacts/safe-handoff-package-v0.6
+```
+
+Use `docs/customer-feedback-intake-v0.6.md` and
+`docs/customer-feedback-triage.md` to classify feedback. Use
+`docs/customer-feedback-safe-response.md` when responding to boundary concerns.
+
+Stop and mark out of scope if a request asks for PHI handling, raw DICOM
+delivery, clinical validation, regulatory approval, certification, real hospital
+deployment approval, or real customer approval. Real cooperation requires NDA
+and de-identification review before any sample discussion proceeds.
