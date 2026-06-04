@@ -41,3 +41,12 @@ The dry run package is partner-safe and summary-only. The evidence boundary
 audit is a release gate for no PHI, no raw DICOM files, no partner leakage of
 private cases, no clinical validation, no regulatory approval, and no
 certification upgrade language.
+
+v0.6 pre-review adds:
+
+```bash
+python tools/audit_private_asset_governance.py
+```
+
+This audit verifies partner feedback governance, private asset handling, private
+case lifecycle boundaries, and public paper support boundaries.

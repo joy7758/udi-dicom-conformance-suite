@@ -23,3 +23,6 @@ Safe boundary statements such as "not clinical validation", "not regulatory
 approval", and "not certification" are allowed because they preserve the review
 boundary.
 
+v0.6 complements this audit with private asset governance, including partner
+feedback intake, private case lifecycle checks, synthetic case authoring
+guidance, and public paper support boundaries.

@@ -10,3 +10,10 @@
 | What is the minimal UDI-DICOM evidence loop? | Manifest, synthetic metadata fixture, registry fixture, evidence item hash, receipt, and report. |
 | What is FDO-style mapping? | Optional metadata alignment language, not an official FDO implementation or persistent identifier service. |
 
+## v0.6 Additions
+
+| Question | Safe Technical Answer |
+| --- | --- |
+| Can we submit real samples through partner feedback? | No. Real cooperation requires NDA and de-identification gates before technical work. |
+| Can private cases be cited in a public paper? | No. Only the existence of controlled partner-review infrastructure may be mentioned publicly. |
+| Can feedback request certification wording? | No. Certification, regulatory approval, and clinical validation requests are out of scope. |

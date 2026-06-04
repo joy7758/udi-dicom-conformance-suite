@@ -48,3 +48,13 @@ Severity model:
 - Major: missing dry-run package, stale case index, missing boundary audit, or
   missing partner question bank.
 - Minor: incomplete reviewer notes that do not change the safety boundary.
+
+## v0.6 Governance Scoring
+
+Scoring includes partner feedback intake readiness, private asset governance
+audit status, private case lifecycle documentation, synthetic case authoring
+guide status, and public paper support boundary status.
+
+Any private case leakage into partner-facing outputs, PHI marker, raw DICOM
+asset, real vendor confidential rule, clinical validation claim, regulatory
+approval claim, or certification claim is a critical blocker.
