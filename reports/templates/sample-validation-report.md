@@ -42,3 +42,13 @@ Boundary statement: not clinical validation, not regulatory approval, no PHI, no
 ## v0.3 Delivery Section
 
 Include delivery package manifest id, pilot kit status, service readiness matrix score, trace_id handling, FDO mapping field handling, and registry fixture policy.
+## v0.4 Synthetic Pilot Controls
+
+- Synthetic pilot e2e status:
+- Delivery audit trail status:
+- Redaction check status:
+- Forbidden asset check status:
+- Safe language review:
+
+This report is a review/report output only. It is not clinical validation, not
+regulatory approval, and not certification.
