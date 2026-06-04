@@ -19,3 +19,9 @@ delivery audit trail generation, and pilot handoff review.
 
 No PHI or raw DICOM originals are included. The pilot output is not clinical
 validation, not regulatory approval, and not certification.
+
+## v0.5 Synthetic Dry Run
+
+Before any real pilot proposal, run the synthetic customer dry run and service
+language audit. Attach only customer-safe summaries. State that synthetic demo
+outputs are different from a real cooperation pilot.

@@ -41,3 +41,10 @@ audit trail for review.
 
 Boundary: no PHI, no raw DICOM delivery, not clinical validation, not regulatory
 approval, not certification.
+
+## v0.5 Synthetic Customer Dry Run
+
+The v0.5 service material supports a synthetic customer dry run for technical
+review. It generates a customer-safe report, handoff checklist, and service
+language audit. This is not a real customer pilot, not clinical validation, not
+regulatory approval, not certification, and not hospital deployment.

@@ -12,3 +12,7 @@
 - No clinical validation claim.
 - No regulatory approval claim.
 - No certification claim.
+- Synthetic customer dry run summary attached, if used.
+- Service language audit passed.
+- Customer-safe report template used.
+- No hospital deployment promise.
