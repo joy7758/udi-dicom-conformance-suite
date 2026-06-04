@@ -52,3 +52,13 @@ Include delivery package manifest id, pilot kit status, service readiness matrix
 
 This report is a review/report output only. It is not clinical validation, not
 regulatory approval, and not certification.
+
+## v0.5 Customer-Safe Appendix
+
+- Synthetic customer dry run id:
+- Customer-safe report status:
+- Service language audit status:
+- Handoff checklist status:
+
+Do not add diagnosis, compliance certificate language, regulatory clearance, or
+hospital deployment promises.

@@ -19,3 +19,9 @@ reviewer notes.
 
 The work does not include PHI processing, raw DICOM delivery, clinical
 validation, regulatory approval, or certification.
+
+## v0.5 Dry Run Boundary
+
+The synthetic customer dry run may be referenced as a technical rehearsal only.
+It does not authorize real sample transfer, PHI intake, regulatory clearance,
+certification, or hospital deployment.

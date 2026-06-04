@@ -23,3 +23,17 @@ delivery packages.
 
 Do not write conclusions as clinical validation, regulatory approval, or
 certification. Outputs are review/report materials only.
+
+## v0.5 Synthetic Customer Dry Run
+
+Before customer-facing dry-run discussion:
+
+```bash
+python scripts/run_synthetic_customer_dry_run.py
+python scripts/check_synthetic_customer_dry_run.py artifacts/synthetic-customer-dry-run
+python scripts/audit_service_language.py
+```
+
+Use only synthetic technical review outputs. Do not accept PHI, raw DICOM, real
+clinical reports, real customer names, real hospital names, clinical validation
+wording, regulatory approval wording, or certification wording.

@@ -24,3 +24,9 @@ python scripts/build_delivery_audit_trail.py --synthetic-demo
 Stop if suspected PHI or raw DICOM originals appear. All conclusions must remain
 review/report conclusions, not clinical validation, regulatory approval, or
 certification.
+
+## v0.5 Dry Run Gate
+
+For synthetic customer dry runs, execute the customer dry run script, dry run
+checker, delivery package checker, redaction check, and service language audit.
+Only customer-safe summaries and reports may move to handoff.
