@@ -66,3 +66,15 @@ trails, and boundary statements. They include no PHI, no raw DICOM, no real
 clinical report, no real customer name, and no real hospital name. The service
 does not provide clinical validation, regulatory approval, certification, or a
 compliance certificate.
+
+## v0.7 Service Feedback Prep
+
+The v0.7 service material prepares customer feedback and safe handoff review
+after v0.6. It confirms that synthetic customer dry-run outputs, service
+governance audits, and safe handoff packages remain customer-safe before any
+new conversation.
+
+v0.7 does not authorize real sample transfer, PHI intake, raw DICOM delivery,
+clinical validation, regulatory approval, certification, real hospital
+deployment, or customer approval. Real cooperation still requires NDA and
+de-identification review before any sample-specific workflow.
