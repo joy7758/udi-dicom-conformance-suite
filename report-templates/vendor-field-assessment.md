@@ -22,3 +22,16 @@ Include partner pack summary, regression baseline coverage, generic alias patter
 
 Do not interpret this assessment as clinical validation, regulatory approval, or
 certification. Do not include real vendor-confidential rules in this template.
+
+## v0.5 Partner Dry Run Fields
+
+- Partner dry run package:
+- Evidence boundary audit:
+- Partner question bank:
+- Safe answer policy:
+- Device UID != UDI-DI explanation:
+- FDO-style mapping boundary:
+
+Use this section for technical review readiness only. Do not promise hospital
+deployment, regulatory compliance outcomes, clinical validation, or
+certification.

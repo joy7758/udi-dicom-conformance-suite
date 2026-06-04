@@ -29,3 +29,22 @@ Scorecards must include:
 Any leakage audit failure is a release blocker. Any missing SHA256SUMS entry is
 a release blocker. These scores support synthetic partner review only and are
 not clinical validation, regulatory approval, or certification.
+
+## v0.5 Partner Dry Run Readiness
+
+Scoring now includes:
+
+- `partner_dry_run_readiness`: generated package exists, partner-safe case count
+  is at least 25, and `check_partner_dry_run_package.py` passes.
+- `evidence_boundary_audit_status`: `audit_evidence_boundary.py` passes and
+  writes JSON and Markdown artifacts.
+- `partner_question_bank_status`: v0.5 question bank and safe-answer boundary
+  documents exist.
+
+Severity model:
+
+- Critical: PHI, raw DICOM file, private case path in partner output, or unsafe
+  clinical/regulatory/certification upgrade language.
+- Major: missing dry-run package, stale case index, missing boundary audit, or
+  missing partner question bank.
+- Minor: incomplete reviewer notes that do not change the safety boundary.

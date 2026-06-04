@@ -25,3 +25,17 @@ Boundary:
 - not clinical validation
 - not regulatory approval
 - not certification
+
+## v0.5 Dry Run Addendum
+
+Before sharing any dry-run material:
+
+- build `partner-dry-run/generated/`
+- run `tools/check_partner_dry_run_package.py partner-dry-run/generated`
+- run `tools/audit_evidence_boundary.py`
+- review `docs/partner-question-bank-v0.5.md`
+- use `docs/partner-safe-language-v0.5.md`
+
+The dry run remains synthetic, summary-only, and partner-safe. It does not
+authorize PHI intake, raw DICOM transfer, clinical validation, regulatory
+approval, certification, or hospital deployment claims.

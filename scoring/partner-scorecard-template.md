@@ -20,3 +20,15 @@ Record partner pack case count, private exclusion confirmation, regression basel
 
 Boundary: synthetic review only, no PHI, not clinical validation, not regulatory
 approval, not certification.
+
+## v0.5 Partner Dry Run
+
+- Partner dry run readiness: `ready|hold`
+- Partner-safe case count:
+- Evidence boundary audit status: `pass|fail|not_run`
+- Partner question bank status: `current|missing`
+- Safe answer policy reviewed: `yes|no`
+- Device UID != UDI-DI boundary confirmed: `yes|no`
+- FDO-style mapping boundary confirmed: `yes|no`
+
+Any `fail`, `hold`, or missing boundary confirmation blocks partner sharing.
