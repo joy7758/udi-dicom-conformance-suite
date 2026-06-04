@@ -28,3 +28,16 @@ files, PHI, real patient data, real hospital data, or real vendor-confidential
 rules.
 
 This is not clinical validation, not regulatory approval, and not certification.
+
+v0.5 pre-review adds:
+
+```bash
+python tools/build_partner_dry_run_package.py
+python tools/check_partner_dry_run_package.py partner-dry-run/generated
+python tools/audit_evidence_boundary.py
+```
+
+The dry run package is partner-safe and summary-only. The evidence boundary
+audit is a release gate for no PHI, no raw DICOM files, no partner leakage of
+private cases, no clinical validation, no regulatory approval, and no
+certification upgrade language.

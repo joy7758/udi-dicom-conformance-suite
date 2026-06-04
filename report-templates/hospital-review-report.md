@@ -23,3 +23,14 @@ Include partner pack summary, regression baseline summary, sample readiness deci
 
 This report uses synthetic review materials only. It is not clinical validation,
 not regulatory approval, and not certification.
+
+## v0.5 Partner Dry Run Appendix
+
+- Partner dry run summary reviewed:
+- Evidence boundary audit reviewed:
+- Partner-safe language reviewed:
+- Expected partner questions reviewed:
+
+This appendix is a technical review aid. It must not be presented as clinical
+validation, regulatory approval, certification, or a hospital deployment
+approval.

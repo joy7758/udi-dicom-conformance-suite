@@ -1,0 +1,15 @@
+{
+  "audit_version": "v0.5",
+  "files_checked": 344,
+  "hits": [],
+  "ok": true,
+  "scopes": [
+    "cases",
+    "partner-pack",
+    "partner-dry-run",
+    "scoring",
+    "report-templates",
+    "vendor-rules",
+    "docs"
+  ]
+}
