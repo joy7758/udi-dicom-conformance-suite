@@ -16,3 +16,10 @@ regulatory approval requests, or certification requests through this intake.
 
 Real cooperation requires NDA and de-identification review before work begins.
 
+## v0.7 Prep Note
+
+Use `docs/v0.7-service-feedback-prep.md` before any post-v0.6 customer review
+conversation. The prep step re-checks customer feedback categories, service
+governance audit status, and safe handoff package boundaries without accepting
+PHI, raw DICOM, clinical validation requests, regulatory approval requests, or
+certification requests.

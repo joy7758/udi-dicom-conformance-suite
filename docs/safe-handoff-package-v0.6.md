@@ -19,3 +19,9 @@ The package uses synthetic customer dry run and delivery audit trail summaries.
 It contains no PHI, no raw DICOM, no real customer names, no real hospital
 names, no clinical diagnosis, no regulatory approval, and no certification.
 
+## v0.7 Prep Note
+
+Before using safe handoff material in any customer review conversation, run the
+v0.7 prep checklist in `docs/v0.7-safe-handoff-review-checklist.md`. This keeps
+the package in technical-review scope and prevents clinical, regulatory, or
+certification overclaiming.
