@@ -50,3 +50,12 @@ python tools/audit_private_asset_governance.py
 
 This audit verifies partner feedback governance, private asset handling, private
 case lifecycle boundaries, and public paper support boundaries.
+
+v0.7 partner feedback prep adds:
+
+- `docs/v0.7-partner-feedback-prep.md`
+- `docs/v0.7-private-governance-review-checklist.md`
+
+These documents prepare partner-response review without adding new case content,
+real vendor confidential rules, PHI, raw DICOM, clinical validation, regulatory
+approval, certification, or public exposure of private cases.
