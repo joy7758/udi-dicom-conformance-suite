@@ -1,0 +1,35 @@
+{
+  "archive_service_status": "zenodo_record_verified",
+  "assigned_doi": "10.5281/zenodo.20635229",
+  "boundary": [
+    "public validator only",
+    "no PHI",
+    "no raw DICOM",
+    "not clinical validation",
+    "not regulatory approval",
+    "not certification",
+    "private suite and private service excluded from public DOI"
+  ],
+  "checks": {
+    "author_present": true,
+    "doi_not_fabricated": true,
+    "keyword_overlap": true,
+    "license_consistent": true,
+    "private_repositories_excluded_from_public_doi": true,
+    "public_repo_only": true,
+    "repository_url_consistent": true,
+    "title_consistent": true,
+    "verified_doi_metadata_consistent": true,
+    "version_present": true
+  },
+  "citation_cff_version": "v1.0.1-public",
+  "codemeta_version": "v1.0.1-public",
+  "doi_claimed": true,
+  "doi_ready": true,
+  "license": "MIT",
+  "report_version": "v0.6",
+  "repository_url": "https://github.com/joy7758/udi-dicom-evidence-validator",
+  "title": "UDI-DICOM Evidence Validator",
+  "unverified_dois": [],
+  "zenodo_record_url": "https://zenodo.org/records/20635229"
+}

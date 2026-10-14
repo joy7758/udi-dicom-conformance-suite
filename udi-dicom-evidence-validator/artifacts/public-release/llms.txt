@@ -1,0 +1,57 @@
+Project: UDI-DICOM Evidence Validator
+
+Purpose: validate a minimal synthetic UDI-DICOM evidence manifest and produce a
+deterministic receipt and Markdown report.
+
+Primary files: `spec/`, `schema/`, `examples/public/`, `src/udi_dicom_validator/`,
+`tests/`, `demo/portable-ultrasound/`.
+
+Quickstart: install with `pip install -e '.[dev,api]'`, run `pytest -q`, then
+`python demo/portable-ultrasound/run_demo.py`.
+
+Allowed claims: deterministic public evidence consistency checks for synthetic
+or de-identified metadata, offline registry fixture review, public demo.
+
+Disallowed claims: clinical validation, regulatory approval, safety assurance,
+certification, PACS/VNA replacement, private suite disclosure, real patient data
+processing by default.
+
+Preferred citation: see `CITATION.cff`.
+
+
+v0.2 note: manifests may include `synthetic_workflow_trace_id`, `provenance`, and optional `fdo_mapping`; these are synthetic metadata, not clinical/regulatory proof.
+
+v0.3 note: use `scripts/generate_golden_receipts.py`,
+`scripts/check_golden_receipts.py`, and
+`scripts/build_public_evaluation_matrix.py` for reproducible public checks. The
+MCP skeleton is public-only and read-only.
+
+v0.4 note: use `scripts/verify_remote_release.py`,
+`scripts/clean_clone_smoke.py`, and `scripts/build_public_release_assets.py` for
+remote release verification, clean clone smoke testing, and public-only release
+asset generation. External review docs live under `docs/external-review-*.md`
+and `docs/reproducibility-for-reviewers.md`. Citation/archive readiness uses
+`.zenodo.json`, `codemeta.json`, `CITATION.cff`, and
+`docs/citation-and-archiving.md`; no DOI is claimed until assigned by an archive
+service.
+
+v0.5 note: use `paper/`, `docs/external-review-pack-v0.5.md`, and
+`scripts/build_reproducibility_capsule.py` for paper review and reproduction
+material. This is public-only and synthetic-only. Do not infer clinical
+validation, regulatory approval, certification, real sample handling, robot
+operation evidence, or official FDO implementation.
+
+v0.6 note: use `paper/submission/`,
+`scripts/build_paper_submission_package.py`, and
+`scripts/build_archive_metadata_report.py` for journal-neutral paper submission
+readiness and DOI-ready archive metadata review. No DOI is claimed before an
+archive service assigns one. Do not add validator behavior, schema changes, real
+samples, PHI, raw DICOM, private suite exposure, clinical validation,
+regulatory approval, certification, or robot operation evidence.
+
+v0.8 note: use `scripts/build_doi_archive_review_package.py`,
+`scripts/check_no_fake_doi.py`,
+`scripts/build_paper_finalization_bundle.py`, and
+`scripts/check_citation_metadata_consistency.py` for DOI archive readiness,
+paper finalization support, no-fake-DOI scanning, and citation metadata
+consistency. This is DOI pending until a verified archive record exists.
