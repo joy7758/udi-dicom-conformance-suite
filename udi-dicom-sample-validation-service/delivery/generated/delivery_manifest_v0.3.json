@@ -5,7 +5,7 @@
     "receipt summaries",
     "redaction check log"
   ],
-  "batch_summary": "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/delivery/generated/synthetic_batch_summary_v0.3.json",
+  "batch_summary": "/workspace/gh-publicize/udi-dicom-conformance-suite-private/udi-dicom-sample-validation-service/delivery/generated/synthetic_batch_summary_v0.3.json",
   "boundary": [
     "no PHI",
     "not clinical validation",
@@ -22,6 +22,6 @@
     "customer confidential artifacts"
   ],
   "raw_dicom_packaged": false,
-  "redaction_log": "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/delivery/generated/redaction_check_log.txt",
-  "report": "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/delivery/generated/synthetic_report_v0.3.md"
+  "redaction_log": "/workspace/gh-publicize/udi-dicom-conformance-suite-private/udi-dicom-sample-validation-service/delivery/generated/redaction_check_log.txt",
+  "report": "/workspace/gh-publicize/udi-dicom-conformance-suite-private/udi-dicom-sample-validation-service/delivery/generated/synthetic_report_v0.3.md"
 }

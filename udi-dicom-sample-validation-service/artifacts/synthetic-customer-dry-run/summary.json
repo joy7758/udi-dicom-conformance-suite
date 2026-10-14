@@ -20,7 +20,7 @@
   "steps": [
     {
       "cmd": [
-        "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/.venv/bin/python",
+        "/tmp/v/bin/python",
         "scripts/redact_check.py",
         "."
       ],
@@ -29,7 +29,7 @@
     },
     {
       "cmd": [
-        "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/.venv/bin/python",
+        "/tmp/v/bin/python",
         "scripts/build_service_readiness_matrix.py"
       ],
       "output": "{\"ready_count\": 8, \"row_count\": 8}",
@@ -37,7 +37,7 @@
     },
     {
       "cmd": [
-        "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/.venv/bin/python",
+        "/tmp/v/bin/python",
         "scripts/build_pilot_kit.py"
       ],
       "output": "{\"generated_files\": [\"pilot_boundary_statement.md\", \"pilot_readiness_checklist.md\", \"pilot_scope_template.md\", \"pilot_success_criteria.md\"]}",
@@ -45,7 +45,7 @@
     },
     {
       "cmd": [
-        "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/.venv/bin/python",
+        "/tmp/v/bin/python",
         "scripts/build_delivery_package.py",
         "--synthetic-demo"
       ],
@@ -54,7 +54,7 @@
     },
     {
       "cmd": [
-        "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/.venv/bin/python",
+        "/tmp/v/bin/python",
         "scripts/check_delivery_package.py",
         "delivery/generated"
       ],
@@ -63,7 +63,7 @@
     },
     {
       "cmd": [
-        "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/.venv/bin/python",
+        "/tmp/v/bin/python",
         "scripts/build_delivery_audit_trail.py",
         "--synthetic-demo"
       ],

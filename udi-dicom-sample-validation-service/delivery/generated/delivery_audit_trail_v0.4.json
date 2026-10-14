@@ -16,7 +16,7 @@
   "reviewer_notes": "Use for synthetic pilot handoff review only.",
   "service_version": "v0.4.0-branch",
   "sha256_hashes": {
-    "delivery/generated/delivery_manifest_v0.3.json": "bfe4ef6522e2ffa45871942a1e0b1312d67b592f6e7b2f79bf7ffe33c52c7a4d",
+    "delivery/generated/delivery_manifest_v0.3.json": "6dab61f21f5c47f6006ad5fc21744d429c647f7aa53dd1c135a11a8eea574368",
     "delivery/generated/delivery_summary_v0.3.md": "75f4129b2e4f425a8e50ee6b207b2814b8697c0a6e6ae3c0efac37e321da263f",
     "delivery/generated/redaction_check_log.txt": "4df53c56d4a6cfe99bbf3c164594170ed34f063894229c804fcc82b0bad62ffc",
     "delivery/generated/synthetic_batch_summary_v0.3.json": "8390068eb69b610006f545967b8dde3e694d378651c6f0a160f0b7864c527d7e",
