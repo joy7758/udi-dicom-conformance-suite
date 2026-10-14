@@ -1,0 +1,13 @@
+name: Delivery package question
+description: Ask about customer-safe delivery package content.
+title: "[Delivery package]: "
+labels: ["delivery-package", "needs-review"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Do not include PHI, raw DICOM, real clinical reports, or real customer data.
+    validations:
+      required: true
+

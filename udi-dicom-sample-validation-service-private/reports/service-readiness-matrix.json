@@ -1,0 +1,54 @@
+{
+  "ready_count": 8,
+  "row_count": 8,
+  "rows": [
+    {
+      "area": "discovery readiness",
+      "boundary": "no PHI; not clinical validation; not regulatory approval; not certification",
+      "score": 1,
+      "status": "ready"
+    },
+    {
+      "area": "intake readiness",
+      "boundary": "no PHI; not clinical validation; not regulatory approval; not certification",
+      "score": 1,
+      "status": "ready"
+    },
+    {
+      "area": "de-identification readiness",
+      "boundary": "no PHI; not clinical validation; not regulatory approval; not certification",
+      "score": 1,
+      "status": "ready"
+    },
+    {
+      "area": "validator readiness",
+      "boundary": "no PHI; not clinical validation; not regulatory approval; not certification",
+      "score": 1,
+      "status": "ready"
+    },
+    {
+      "area": "private suite readiness",
+      "boundary": "no PHI; not clinical validation; not regulatory approval; not certification",
+      "score": 1,
+      "status": "ready"
+    },
+    {
+      "area": "report readiness",
+      "boundary": "no PHI; not clinical validation; not regulatory approval; not certification",
+      "score": 1,
+      "status": "ready"
+    },
+    {
+      "area": "delivery readiness",
+      "boundary": "no PHI; not clinical validation; not regulatory approval; not certification",
+      "score": 1,
+      "status": "ready"
+    },
+    {
+      "area": "pilot readiness",
+      "boundary": "no PHI; not clinical validation; not regulatory approval; not certification",
+      "score": 1,
+      "status": "ready"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "boundary": [
+    "synthetic-only",
+    "no PHI",
+    "no raw DICOM",
+    "not clinical validation",
+    "not regulatory approval",
+    "not certification"
+  ],
+  "delivery_audit_trail_status": "pass",
+  "delivery_package_check_status": "pass",
+  "dry_run_id": "synthetic-customer-v0.5-001",
+  "phi_included": false,
+  "raw_dicom_included": false,
+  "real_customer_included": false,
+  "real_hospital_included": false,
+  "redaction_check_status": "pass",
+  "service_version": "v0.5-dry-run",
+  "status": "pass",
+  "steps": [
+    {
+      "cmd": [
+        "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/.venv/bin/python",
+        "scripts/redact_check.py",
+        "."
+      ],
+      "output": "redact_check=pass",
+      "returncode": 0
+    },
+    {
+      "cmd": [
+        "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/.venv/bin/python",
+        "scripts/build_service_readiness_matrix.py"
+      ],
+      "output": "{\"ready_count\": 8, \"row_count\": 8}",
+      "returncode": 0
+    },
+    {
+      "cmd": [
+        "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/.venv/bin/python",
+        "scripts/build_pilot_kit.py"
+      ],
+      "output": "{\"generated_files\": [\"pilot_boundary_statement.md\", \"pilot_readiness_checklist.md\", \"pilot_scope_template.md\", \"pilot_success_criteria.md\"]}",
+      "returncode": 0
+    },
+    {
+      "cmd": [
+        "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/.venv/bin/python",
+        "scripts/build_delivery_package.py",
+        "--synthetic-demo"
+      ],
+      "output": "{\"generated\": true, \"raw_dicom_packaged\": false}",
+      "returncode": 0
+    },
+    {
+      "cmd": [
+        "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/.venv/bin/python",
+        "scripts/check_delivery_package.py",
+        "delivery/generated"
+      ],
+      "output": "{\"hits\": [], \"ok\": true}",
+      "returncode": 0
+    },
+    {
+      "cmd": [
+        "/Users/zhangbin/projects/udi-dicom-evidence/udi-dicom-sample-validation-service-private/.venv/bin/python",
+        "scripts/build_delivery_audit_trail.py",
+        "--synthetic-demo"
+      ],
+      "output": "{\"forbidden_asset_check_status\": \"pass\", \"output\": \"delivery/generated/delivery_audit_trail_v0.4.json\", \"redaction_check_status\": \"pass\"}",
+      "returncode": 0
+    }
+  ],
+  "synthetic_customer_workspace": "artifacts/synthetic-customer-dry-run",
+  "workflow": {
+    "delivery": "pass",
+    "discovery": "synthetic_complete",
+    "intake": "synthetic_complete",
+    "pilot_handoff": "ready",
+    "report": "synthetic_report_ready",
+    "validation": "pass"
+  }
+}

@@ -1,0 +1,27 @@
+name: Customer feedback
+description: Customer-safe feedback intake for synthetic service review material.
+title: "[Customer feedback]: "
+labels: ["customer-feedback", "needs-review"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feedback category
+      options:
+        - discovery question
+        - sample intake question
+        - de-identification concern
+        - validation report question
+        - delivery package question
+        - pilot handoff question
+        - out-of-scope request
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Do not include PHI, raw DICOM, real customer names, or real hospital names.
+    validations:
+      required: true
+

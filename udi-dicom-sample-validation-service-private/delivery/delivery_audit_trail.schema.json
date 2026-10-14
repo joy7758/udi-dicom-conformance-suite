@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Synthetic Delivery Audit Trail v0.4",
+  "type": "object",
+  "required": [
+    "delivery_id",
+    "created_at",
+    "service_version",
+    "validator_version",
+    "suite_version",
+    "source_artifacts",
+    "generated_artifacts",
+    "sha256_hashes",
+    "redaction_check_status",
+    "forbidden_asset_check_status",
+    "boundary_statement",
+    "reviewer_notes"
+  ],
+  "properties": {
+    "delivery_id": {"type": "string"},
+    "created_at": {"type": "string"},
+    "service_version": {"type": "string"},
+    "validator_version": {"type": "string"},
+    "suite_version": {"type": "string"},
+    "source_artifacts": {"type": "array", "items": {"type": "string"}},
+    "generated_artifacts": {"type": "array", "items": {"type": "string"}},
+    "sha256_hashes": {"type": "object", "additionalProperties": {"type": "string"}},
+    "redaction_check_status": {"type": "string"},
+    "forbidden_asset_check_status": {"type": "string"},
+    "boundary_statement": {"type": "string"},
+    "reviewer_notes": {"type": "string"},
+    "raw_dicom_packaged": {"type": "boolean"},
+    "phi_included": {"type": "boolean"}
+  }
+}
